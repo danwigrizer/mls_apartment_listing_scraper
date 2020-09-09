@@ -12,8 +12,8 @@ session = requests.Session()
 
 # Log into MLS with user name and password post of payload - Need to send them data
 
-payload = {'user': 'wigrizer@gmail.com',
-           'pass': 'chris'}
+payload = {'user': ,
+           'pass': }
 login = session.post("https://vow.mlspin.com/clients/validate.aspx?id=332068", data=payload)
 
 
